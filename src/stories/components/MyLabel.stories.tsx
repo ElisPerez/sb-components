@@ -12,6 +12,7 @@ export default {
     allCaps: {control: 'boolean'},
     label: {control: 'text'},
     fontColor: {control: 'color'},
+    backgroundColor: {control: 'color'},
   }
 } as ComponentMeta<typeof MyLabel>;
 
@@ -43,5 +44,12 @@ Tertiary.args = {
 export const CustomColor = Template.bind({});
 CustomColor.args = {
   fontColor: '#ff0000',
+  size: 'h1',
+}
+
+export const CustomBackgroundColor = Template.bind({});
+CustomBackgroundColor.args = {
+  backgroundColor: 'blue',
+  fontColor: 'white',
   size: 'h1',
 }

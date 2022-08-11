@@ -23,7 +23,8 @@
     "start": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=e075bb42f40c"
   },
   "eslintConfig": {
     "extends": [
@@ -58,5 +59,7 @@
     "chromatic": "^6.7.3",
     "css-loader": "^6.7.1",
     "postcss": "^8.4.16"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "story-book-elis@0.1.0"
 }
